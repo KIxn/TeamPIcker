@@ -1,0 +1,36 @@
+.Box{
+    background-color:rgba(125,125,125,0.45);
+    border: 0.1em rgba(100,100,100,0.7) solid;
+    border-radius: 0.2em;
+    margin: auto auto;
+    padding: 0.3em;
+    width: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#loader{
+    margin: 0.5em auto;
+}
+
+.Box .Box{
+    background-color: transparent;
+    border: none;
+}
+
+.Box h4{
+    text-decoration: none;
+}
+
+.Box button{
+    margin-bottom: 2em;
+    background-color:rgba(125,125,125,1);
+  border: 0.01em rgba(100, 100, 100, 0.1);
+  border-radius: 0.35em;
+  cursor: pointer;
+  box-shadow: -0.02em 0.09em rgb(59, 59, 59);
+  padding: 0.3em;
+  width: fit-content;
+}

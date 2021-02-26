@@ -1,0 +1,76 @@
+.Roster{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputarea{
+    font-size: larger;
+    background-color:rgba(125,125,125,0.45);
+    width: fit-content;
+    padding-left: 0.5em;
+    border: 0.1em rgba(100,100,100,0.7) solid;
+    border-radius: 0.2em;
+    box-shadow: -0.02em 0.08em rgb(59, 58, 58);
+    padding: 0.45em;
+}
+
+.inputarea input{
+    outline: none;
+    padding: 0.3em;
+    border: 0.1em rgba(100,100,100,0.7) solid;
+    border-radius: 0.6em;
+    text-align: center;
+    background-color: rgba(217, 221, 221,0.8);
+}
+
+.inputarea span{
+    color: rgb(111, 197, 13);
+    font-size: large;
+    transition: font-size 200ms ease-out;
+    -webkit-transition: font-size 200ms;
+    margin-left: 1em;
+    padding: 0.3em;
+    cursor:pointer;
+}
+
+.inputarea span:hover{
+    font-size: x-large;
+}
+
+.TeamDiv{
+    background-color:rgba(125,125,125,0.45);
+    border: 0.1em rgba(100,100,100,0.7) solid;
+    border-radius: 0.2em;
+    margin: 1.5em 0;
+    padding: 0 0.8em 0 0;
+    display: none;
+}
+
+.TeamDiv h4{
+    margin: 0 auto;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.TeamSheet{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+li{
+    width: 100%;
+    position: relative;
+    margin-right: 5em;
+}
+
+li .btn2{
+    padding-right: 0;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: rgb(180, 38, 38);
+    z-index: 10;
+}

@@ -1,0 +1,25 @@
+h4{
+    width: 100%;
+    margin: 0.5em 0.5em 0.1em 0.5em;
+    text-decoration: underline;
+}
+
+.teamblock{
+    background-color:rgba(125,125,125,0.45);
+    border: 0.1em rgba(100,100,100,0.7) solid;
+    border-radius: 0.2em;
+    text-align: center;
+    margin: 1em 0;
+    padding: 0.1em;
+}
+
+.teamblock li{
+    width: fit-content;
+    margin-right: 1.2em;
+}
+
+.teamblock ul{
+    margin: 0;
+    
+    width: 100%;
+}
