@@ -36,6 +36,7 @@ export class Jokezz extends Component{
                 })
             }else{
                 throw new Error('API UNRESPONSIVE');
+                alert('API ERROR, CHECK NETWORK DIAGNOSTICS');
             }
         }catch(e){
             console.log(e.message);
@@ -69,6 +70,7 @@ export class Jokezz extends Component{
                 });
             }else{
                 throw new Error('API UNRESPONSIVE');
+                alert('API ERROR, CHECK NETWORK DIAGNOSTICS');
             }
         }catch(e){
             console.log(e.message);
